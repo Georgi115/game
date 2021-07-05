@@ -1,0 +1,15 @@
+.info {
+  color: rgba(99, 96, 96, 0.699);
+  text-transform: uppercase;
+  margin-top: 65px;
+  padding-left: 25px;
+  font-size: 13px;
+}
+
+.info > p {
+  margin-bottom: 14px;
+}
+
+.info > p:last-child {
+  margin: 0;
+}

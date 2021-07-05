@@ -1,0 +1,43 @@
+.textField {
+  position: absolute;
+  background-color: #16192dfa;
+  width: 300px;
+  margin-top: -34px;
+  padding-top: 10px;
+}
+
+.textField__input {
+  height: 50px;
+  width: 100%;
+  background-color: #1c2138;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding-left: 5px;
+  color: rgba(99, 96, 96, 0.993);
+}
+.textField__btn {
+  color: white;
+  text-transform: uppercase;
+  height: 35px;
+  width: 110px;
+  background-color: tomato;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.textField__btn2 {
+  background-color: rgba(255, 99, 71, 0.219);
+}
+.textField__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.textField__text > p {
+  text-transform: uppercase;
+  color: rgba(99, 96, 96, 0.699);
+  font-size: 13px;
+}

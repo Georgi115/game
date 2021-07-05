@@ -1,0 +1,108 @@
+.header {
+  border-bottom: 1px solid rgba(99, 96, 96, 0.295);
+  display: flex;
+  height: 80px;
+}
+.header__logo {
+  position: relative;
+  margin-left: 114px;
+  width: 194px;
+}
+
+.mainLogo {
+  position: absolute;
+  left: 32px;
+  top: 8px;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  margin-left: 86px;
+
+  width: 1170px;
+  justify-content: space-between;
+}
+.header__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-transform: uppercase;
+  color: white;
+  font-family: "BlenderPro";
+}
+.header__list > li > i {
+  color: tomato;
+  margin-right: 5px;
+}
+
+.header__itemMenu {
+  margin-right: 43px;
+  cursor: pointer;
+}
+
+.header__itemMenu:last-child {
+  margin: 0;
+}
+
+.header__socialList {
+  color: rgba(99, 96, 96, 0.295);
+  display: flex;
+}
+
+.header__socialItem:hover {
+  cursor: pointer;
+  color: tomato;
+}
+
+.header__socialItem {
+  margin-right: 18px;
+}
+
+.header__socialItem:last-child {
+  margin-right: 0;
+}
+.header__user {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+.header__avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.header__text {
+  color: #63e27e;
+  margin-left: 10px;
+  font-family: "BlenderPro";
+  font-size: 20px;
+}
+
+.header__btn {
+  color: white;
+  background-color: #2fa048;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  height: 35px;
+  width: 111px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 50px;
+  font-family: "BlenderPro";
+}
+
+.header__exit {
+  border-left: 1px solid rgba(99, 96, 96, 0.295);
+  height: 100%;
+  margin-left: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.header__exit > i {
+  color: rgba(99, 96, 96, 0.295);
+}

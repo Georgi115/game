@@ -1,0 +1,63 @@
+.rouletteInfo {
+  display: flex;
+  font-family: "BlenderPro";
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.rouletteInfo__count > img {
+  width: 24px;
+  height: 24px;
+}
+
+.rouletteInfo__count {
+  display: flex;
+  align-items: center;
+}
+.rouletteInfo__count > span {
+  color: #ffffff;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-left: 5px;
+  margin-right: 6px;
+}
+
+.rouletteInfo__count > span:last-child {
+  margin-right: 0;
+}
+.rouletteInfo__textInfo {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.rouletteInfo__textInfo > p > span {
+  color: #36c736;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-left: 9px;
+  margin-right: 54px;
+}
+
+.rouletteInfo__lastCoins {
+  width: 239px;
+  height: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rouletteInfo__lastCoins > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 2px;
+}
+
+.rouletteInfo__lastCoins > img:last-child {
+  margin-right: 0;
+}

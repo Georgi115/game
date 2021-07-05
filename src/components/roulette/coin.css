@@ -1,0 +1,10 @@
+.coin {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  transition: 0.3s;
+}
+.coin__transform {
+  transform: translateX(2000px);
+}

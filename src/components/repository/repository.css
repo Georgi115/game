@@ -1,0 +1,30 @@
+.repository {
+  padding-top: 34px;
+  padding-left: 30px;
+  padding-right: 20px;
+  flex-grow: 1;
+  font-family: "BlenderPro";
+  text-transform: uppercase;
+}
+
+.repository__info {
+  color: #353a54;
+  font-style: normal;
+  letter-spacing: 0.35px;
+  line-height: normal;
+}
+
+.repository__information {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+  border-bottom: 1px solid #1b2137;
+  padding-bottom: 21px;
+}
+
+.repository__information > p > span {
+  color: #66ff66;
+  font-style: normal;
+  letter-spacing: 0.3px;
+  line-height: normal;
+}

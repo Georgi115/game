@@ -1,0 +1,21 @@
+.roulette {
+  height: calc(1021px - 81px -19px);
+  border-right: 1px solid rgba(99, 96, 96, 0.295);
+  width: 1265px;
+  padding: 19px;
+}
+
+.roulette__plaska {
+  height: 182px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.roulette__plaska > img {
+  z-index: 100;
+}

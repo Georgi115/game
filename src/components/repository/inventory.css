@@ -1,0 +1,130 @@
+.inventory__filter {
+  font-family: "BlenderPro";
+  text-transform: uppercase;
+  color: #333851;
+  display: flex;
+}
+
+.inventory {
+  margin-top: 21px;
+}
+
+.inventory__filter > p {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.inventory__filter > p:hover {
+  color: #262a3b;
+}
+
+.inventory__filter > p:last-child {
+  margin-right: 0px;
+}
+.inventory__list {
+  margin-top: 24px;
+}
+.inventory__listUl {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "BlenderPro-Book";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inventory__item {
+  width: 108px;
+  height: 138px;
+  background-color: #1b1f35;
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 2px solid rgba(255, 99, 71, 0);
+}
+
+.inventory__itemActive {
+  border-bottom: 2px solid tomato;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  box-shadow: 4px -14px 11px -13px rgba(255, 99, 71, 0.384) inset;
+}
+
+.inventory__item:hover {
+  background-color: #293057;
+}
+
+.inventory__itemName {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.inventory__itemPrice {
+  width: 100%;
+  text-align: center;
+}
+.inventory__figure {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  transform: rotate(90deg);
+  left: 0;
+  top: 0;
+}
+
+.fa-chevron-down {
+  color: white;
+  margin-left: 6px;
+}
+
+.active__filter {
+  color: white;
+}
+
+.inventory__btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.inventory__btn > button {
+  width: 169px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "BlenderPro";
+  color: white;
+  font-style: normal;
+  letter-spacing: 0.33px;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.inventory__btnOne {
+  background-color: #53c353;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inventory__btnOne > i {
+  margin-right: 16px;
+}
+
+.inventory__btnTwo {
+  background-color: #f76d37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inventory__btnTwo > img {
+  margin-right: 16px;
+}

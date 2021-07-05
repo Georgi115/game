@@ -1,0 +1,96 @@
+.rate {
+  width: 337px;
+  font-family: "BlenderPro";
+  margin-top: 53px;
+  margin-right: 25px;
+}
+.rate:last-child {
+  margin-right: 0;
+}
+
+.rate__title {
+  height: 52px;
+  background-color: #232947;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  width: 317px;
+  padding-left: 15px;
+  border-radius: 5px;
+  padding-right: 5px;
+  margin-bottom: 7px;
+}
+
+.rate__user {
+  height: 52px;
+  background-color: #1b1f35;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 309px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 5px;
+}
+.rate__user:last-child {
+  margin-bottom: 0;
+}
+
+.rate__title > button {
+  font-family: "BlenderPro";
+  text-transform: uppercase;
+}
+
+.rate__avatar {
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  background-color: #0e0e0e;
+  margin-right: 15px;
+}
+
+.rate__titlePrice {
+  color: #34bf35;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.rate__titleCountUsers {
+  color: #ffffff;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-left: 10px;
+  width: 82px;
+}
+.rate__titileX {
+  color: #328ac6;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-left: 22px;
+}
+.rate__titleBtn {
+  outline: none;
+  border: none;
+  width: 128px;
+  height: 40px;
+  background-color: #328ac6;
+  border-radius: 7px;
+  margin-left: 13px;
+  color: #ffff;
+}
+
+.rate__userPrice {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  color: #34bf35;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
